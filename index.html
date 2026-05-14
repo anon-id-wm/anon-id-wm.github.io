@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Pages</title>
-  </head>
-  <body>
-    <p>This page is intentionally left blank.</p>
-  </body>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/mml-chtml.js">
+</script>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Hierarchical World Models with Implicit Dynamics">
+  <meta property="og:description" content="Hierarchical World Models with Implicit Dynamics">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hierarchical World Models with Implicit Dynamics">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Hierarchical World Models with Implicit Dynamics">
+  <meta name="twitter:description"
+    content="Hierarchical World Models with Implicit Dynamics">
+  <link rel="shortcut icon" href="mfiles/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/simple-grid.css">
+  <title>Hierarchical World Models with Implicit Dynamics</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row mt-5" >
+        <div class="col-12 center mb-3">
+          <h1 style="font-size: 2.9em;">
+            <b>Hierarchical World Models with</b>
+          </h1>  
+          <h1 style="font-size: 2.8em;">
+            <b>Implicit Dynamics</b>
+          </h1>        
+        </div>
+      </div>
+
+      <!--Abstract-->
+      <div class="row mt-5">
+        <div class="col-12">
+          <h2 class="center m-bottom">Abstract</h2>
+          <p>
+            Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce <b>ID-WM</b> (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 120% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at <a href="https://anon-id-wm.github.io">https://anon-id-wm.github.io</a>.
+          </p>
+        </div>
+      </div>
+
+      <!--Architecture Image-->
+      <div class="row mt-5">
+        <div class="col-12 center img">
+          <img class="center" src="./mfiles/architecture.png" style="width:100%; height:auto; overflow:visible;"></img>
+          <p style="text-align: center; margin-top: 10px;"><i>Architecture of ID-WM</i></p>
+        </div>
+      </div>
+
+      <!--High-level Subgoals Image-->
+      <div class="row mt-5">
+        <div class="col-12 center img">
+          <img class="center" src="./mfiles/subgoals.png" style="width:100%; height:auto; overflow:visible;"></img>
+          <p style="text-align: center; margin-top: 10px;"><i>High-level subgoals planned by ID-WM</i></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
 </html>

@@ -36,6 +36,14 @@
         </div>
       </div>
 
+      <!--High-level Subgoals Image-->
+      <div class="row mt-5">
+        <div class="col-12 center img">
+          <img class="center" src="./mfiles/subgoals.png" style="width:100%; height:auto; overflow:visible;"></img>
+          <p style="text-align: center; margin-top: 10px;"><i>High-level subgoals planned by ID-WM</i></p>
+        </div>
+      </div>
+
       <!--Abstract-->
       <div class="row mt-5">
         <div class="col-12">
@@ -54,11 +62,20 @@
         </div>
       </div>
 
-      <!--High-level Subgoals Image-->
+      <!--Method Section-->
+      <div class="row mt-5">
+        <div class="col-12">
+          <h2 class="center mb-3">Method</h2>
+          <p>
+            In this paper, we introduce <b>ID-WM</b>, a hierarchical world model with implicit dynamics grounded in the insight that effective planning requires decoupling topological reachability from execution details. <b>ID-WM</b> consists of a high-level diffusion-based world model that only implicitly models the dynamics by outputting states that are within a fixed distance away from the current state, functioning as a <i>neighboring state generator</i>, and a deterministic low-level model conditioned on both current state and action, acting as an <i>inverse dynamics solver</i>. Conditioned on the current state and a Gaussian noise, the high-level model leverages the generative power of diffusion to map a tractable unit Gaussian latent space to the manifold of feasible neighboring states. This formulation allows us to treat the noise as an implicit high-level action, enabling the planner to search over a well-behaved distribution instead of complex, discontinuous skill spaces to reason purely about "where to go," while the low-level model recovers the precise executable actions for "how to get there."
+          </p>
+        </div>
+      </div>
+
+      <!--Diverse Plans Image-->
       <div class="row mt-5">
         <div class="col-12 center img">
-          <img class="center" src="./mfiles/subgoals.png" style="width:100%; height:auto; overflow:visible;"></img>
-          <p style="text-align: center; margin-top: 10px;"><i>High-level subgoals planned by ID-WM</i></p>
+          <img class="center" src="./mfiles/diverse_plans.png" style="width:100%; height:auto; overflow:visible;"></img>
         </div>
       </div>
 

@@ -39,7 +39,7 @@
       <!--High-level Subgoals Image-->
       <div class="row mt-5">
         <div class="col-12 center img">
-          <img class="center" src="./mfiles/teaser.gif" style="width:100%; height:auto; overflow:visible;"></img>
+          <img class="center" src="./mfiles/teaser_resize.gif" style="width:100%; height:auto; overflow:visible;"></img>
           <p style="text-align: center; margin-top: 10px;"><i>ID-WM</i></p> <!-- TODO: teaser placeholder -->
         </div>
       </div>
@@ -57,7 +57,7 @@
       <!--Architecture Image-->
       <div class="row mt-5">
         <div class="col-12 center img">  <!--TODO: crop-->
-          <img class="center" src="./mfiles/planning.gif" style="width:100%; height:auto; overflow:visible;"></img>
+          <img class="center" src="./mfiles/planning_resize.gif" style="width:100%; height:auto; overflow:visible;"></img>
           <p style="text-align: center; margin-top: 10px;"><i>Architecture of ID-WM</i></p>
         </div>
       </div>
@@ -167,63 +167,111 @@
         <h4>PushT (Random State)</h4>
           <div class="grid-display" style="display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 10px;">
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/placeholder.mp4" type="video/mp4">
-              </video>
+              <img class="img" style="width: 100%; height: auto;" src="./mfiles/media/baselines_all/pusht_random_state/goal.png" alt="Goal">
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">Goal</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/placeholder.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">Ours</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/env/media/exp1_pusht_25_steps/pusht_dino_cls.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">HIQL</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/env/media/exp1_pusht_25_steps/pusht_dreamerv3.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">GCBC</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/env/media/placeholder.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">Diffuser</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/env/media/exp1_pusht_25_steps/pusht_iris.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/hdiffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">H-Diffuser</h4>
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
-                <source src="./mfiles/env/media/placeholder.mp4" type="video/mp4">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_random_state/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">SL-WM</h4>
               </div>
             </div>
           </div>
-        
+
+        <h4>PushT Aug (Random State)</h4>
+          <div class="grid-display" style="display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 10px;">
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <img class="img" style="width: 100%; height: auto;" src="./mfiles/media/baselines_all/pusht_aug_random_state/goal.png" alt="Goal">
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Goal</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_random_state/ours_success.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Ours</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_random_state/hiql.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">HIQL</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_random_state/gcbc.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">GCBC</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_random_state/diffuser_fail.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Diffuser</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_random_state/hdiffuser_fail.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">H-Diffuser</h4>
+              </div>
+            </div>
+          </div>
+
         <h4>PushT (Fix Goal)</h4>
           <div class="grid-display" style="display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 10px;">
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
@@ -233,7 +281,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -241,7 +289,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -249,7 +297,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -257,7 +305,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -265,7 +313,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/hdiffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -273,11 +321,61 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
                 <h4 class="with-whitebackdrop">SL-WM</h4>
+              </div>
+            </div>
+          </div>
+
+        <h4>PushT Aug (Fix Goal)</h4>
+          <div class="grid-display" style="display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 10px;">
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <img class="img" style="width: 100%; height: auto;" src="./mfiles/media/baselines_all/pusht_aug_fix_goal/goal.png" alt="Goal">
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Goal</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_fix_goal/ours_success.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Ours</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_fix_goal/hiql.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">HIQL</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_fix_goal/gcbc.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">GCBC</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_fix_goal/diffuser_fail.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">Diffuser</h4>
+              </div>
+            </div>
+            <div class="video-container" style="flex: 1 1 15%; margin: 0;">
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+                <source src="./mfiles/media/baselines_all/pusht_aug_fix_goal/hdiffuser_success.mp4" type="video/mp4">
+              </video>
+              <div style="text-align: center;">
+                <h4 class="with-whitebackdrop">H-Diffuser</h4>
               </div>
             </div>
           </div>
@@ -291,7 +389,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -299,7 +397,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -307,7 +405,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -315,7 +413,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -323,7 +421,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -331,7 +429,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -349,7 +447,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -357,7 +455,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -365,7 +463,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -373,7 +471,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/diffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -381,7 +479,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -389,7 +487,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -407,7 +505,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -415,7 +513,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -423,7 +521,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -431,7 +529,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -439,7 +537,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -447,7 +545,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -465,7 +563,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -473,7 +571,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -481,7 +579,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -489,7 +587,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -497,7 +595,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -505,7 +603,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -523,7 +621,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -531,7 +629,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/hiql.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -539,7 +637,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/gcbc.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -547,7 +645,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -555,7 +653,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -563,7 +661,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_giant/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">

@@ -331,3 +331,34 @@ p {
   padding: 10px;
   border-radius: 5px;
 }
+
+.caption {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.method-name {
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.status.success {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.status.failure {
+  /* background: #ffebee; */
+  color: #b71c1c;
+}

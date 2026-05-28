@@ -307,3 +307,27 @@ p {
     max-width: 60rem;
   }
 }
+
+.carousel-indicators {
+  bottom: 40px; 
+}
+
+.carousel-indicators button {
+  background-color: gray !important;
+  opacity: 1; 
+}
+
+.with-whitebackdrop {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  /* font-weight: bold; */
+}
+
+.with-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

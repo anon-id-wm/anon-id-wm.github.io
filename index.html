@@ -95,7 +95,7 @@
       <div class="container">
         <div class="grid-display" style="display: flex; flex-wrap: nowrap; justify-content: space-between; align-items: flex-start; gap: 10px;">
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/pusht_aug_random_state_17_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -103,7 +103,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/pusht_aug_fix_goal_17_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -111,7 +111,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/wall_9_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/maze_u_1_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -127,7 +127,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/maze_medium_0_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/maze_large_18_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -143,7 +143,7 @@
             </div>
           </div>
           <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-            <video class="img" style="width: 100%; height: auto;" muted autoplay loop controls>
+            <video class="img-fluid" style="width: 100%; height: auto;" muted autoplay playsinline>
               <source src="./mfiles/media/ours_all/maze_giant_15_success_ours.mp4" type="video/mp4">
             </video>
             <div style="text-align: center;">
@@ -164,12 +164,12 @@
       </div>
     </div>
 
-    <!--Baselines: PushT (Random State)-->
     <div class="body-content" style="padding-bottom: 0px;">
       <div class="container">
-        <h4>PushT (Random State):</h4>
+        <!--Baselines: PushT (Random State)-->
+        <h3>PushT (Random State):</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 5px;">
             <div id="carousel-pusht-random" class="carousel slide" data-bs-ride="false">
@@ -184,7 +184,7 @@
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
                     <div style="position: relative; display: inline-block; margin: auto;">
-                      <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                      <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay controls>
                         <source src="./mfiles/media/ours_diverse_all/pusht_random_state/FINAL_out1_0_success.mp4" type="video/mp4">
                       </video>
                       <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;">
@@ -193,39 +193,39 @@
                       </div>
                     </div>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_random_state/FINAL_out1_5_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Random Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_random_state/FINAL_out1_6_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Random Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_random_state/FINAL_out1_8_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Random Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_random_state/FINAL_out1_17_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Random Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-pusht-random" data-bs-slide="prev">
@@ -250,7 +250,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -261,7 +261,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -272,7 +272,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/gcbc_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -283,7 +283,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -294,7 +294,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/hdiffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -305,7 +305,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_random_state/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -316,10 +316,11 @@
               </div>
             </div>
           </div>
-
-        <h4>PushT (Fix Goal):</h4>
+        
+        <!--Baselines: PushT (Fix Goal)-->
+        <h3>PushT (Fix Goal):</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-pusht-fix" class="carousel slide" data-bs-ride="false">
@@ -334,51 +335,51 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_1_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_2_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_6_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_10_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_11_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <div style="position: relative; display: inline-block; margin: auto;"><video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/pusht_fix_goal/FINAL_out1_19_success.mp4" type="video/mp4">
                     </video>
                   <div style="position: absolute; top: 12px; left: 0; width: 100%; display: grid; grid-template-columns: 1fr 1fr; font-size: 14px; color: #aaaaaae4; text-align: center; pointer-events: none;"><span>Goal</span><span>Execution from Random Init</span></div></div></div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 6</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init, Fixed Goal 6 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-pusht-fix" data-bs-slide="prev">
@@ -402,7 +403,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -413,7 +414,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -424,7 +425,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/gcbc_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -435,7 +436,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -446,7 +447,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/hdiffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -457,7 +458,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 14%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/pusht_fix_goal/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -469,9 +470,9 @@
             </div>
           </div>
 
-        <h4>Wall:</h4>
+        <h3>Wall:</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-wall" class="carousel slide" data-bs-ride="false">
@@ -485,43 +486,43 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/wall/FINAL_out1_0_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/wall/FINAL_out1_5_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/wall/FINAL_out1_7_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/wall/FINAL_out1_9_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/wall/FINAL_out1_15_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-wall" data-bs-slide="prev">
@@ -545,7 +546,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -556,7 +557,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -567,7 +568,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/gcbc_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -578,7 +579,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -589,7 +590,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -600,7 +601,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/wall/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -612,9 +613,9 @@
             </div>
           </div>
         
-        <h4>U-Maze:</h4>
+        <h3>U-Maze:</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-maze-u" class="carousel slide" data-bs-ride="false">
@@ -628,43 +629,43 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_u/FINAL_out1_0_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_u/FINAL_out1_1_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_u/FINAL_out1_2_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_u/FINAL_out1_11_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_u/FINAL_out1_16_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maze-u" data-bs-slide="prev">
@@ -688,7 +689,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -699,7 +700,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -710,7 +711,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/gcbc_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -721,7 +722,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/diffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -732,7 +733,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -743,7 +744,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_u/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -755,9 +756,9 @@
             </div>
           </div>
         
-        <h4>Medium Maze:</h4>
+        <h3>Medium Maze:</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-maze-medium" class="carousel slide" data-bs-ride="false">
@@ -772,51 +773,51 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_0_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_3_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_4_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_8_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_13_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_medium/FINAL_out1_24_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 6</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 6 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maze-medium" data-bs-slide="prev">
@@ -840,7 +841,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/ours_success.mp4" type="video/mp4">
               </video>
               <div class="caption">
@@ -849,7 +850,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -860,7 +861,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/gcbc_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -871,7 +872,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -882,7 +883,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -893,7 +894,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_medium/sl_wm_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -905,9 +906,9 @@
             </div>
           </div>
 
-        <h4>Large Maze:</h4>
+        <h3>Large Maze:</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-maze-large" class="carousel slide" data-bs-ride="false">
@@ -921,43 +922,43 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_large/FINAL_out1_0_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_large/FINAL_out1_1_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_large/FINAL_out1_3_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_large/FINAL_out1_4_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_large/FINAL_out1_15_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maze-large" data-bs-slide="prev">
@@ -981,7 +982,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/ours_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -992,7 +993,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/hiql_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -1003,7 +1004,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/gcbc_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -1014,7 +1015,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/diffuser_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -1025,7 +1026,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/hdiffuser_success.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -1036,7 +1037,7 @@
               </div>
             </div>
             <div class="video-container" style="flex: 1 1 15%; margin: 0;">
-              <video class="img" style="width: 100%; height: auto;" muted autoplay controls>
+              <video class="img baseline-video" style="width: 100%; height: auto;" muted autoplay controls>
                 <source src="./mfiles/media/baselines_all/maze_large/sl_wm_fail.mp4" type="video/mp4">
               </video>
               <div style="text-align: center;">
@@ -1048,9 +1049,9 @@
             </div>
           </div>
         
-        <h4>Giant Maze:</h4>
+        <h3>Giant Maze:</h3>
           <h5 style="text-align:left; color:#666;">
-            Ours: Generalizing to Novel Environment Configurations
+            Ours: Generalizing to Arbitrary Goals
           </h5>
           <div class="carousel-column" style="flex: 0 0 45%; padding: 10px;">
             <div id="carousel-maze-giant" class="carousel slide" data-bs-ride="false">
@@ -1065,51 +1066,51 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_0_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 1 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_1_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 2 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_3_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3</h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 3 <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_6_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4 </h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 4  <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_16_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5 </h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 5  <span class="status success">Success</span></h4></div>
                 </div>
                 <div class="carousel-item">
                   <div style="display: flex; justify-content: center; max-height: 250px; max-width: 100%; overflow: hidden;">
-                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay loop controls>
+                    <video class="img-fluid" style="max-height: 250px; margin: auto;" muted autoplay>
                       <source src="./mfiles/media/ours_diverse_all/maze_giant/FINAL_out1_18_success.mp4" type="video/mp4">
                     </video>
                   </div>
-                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 6 </h4></div>
+                  <div style="text-align: center;"><h4 class="caption with-whitebackdrop">Random Init and Goal 6  <span class="status success">Success</span></h4></div>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maze-giant" data-bs-slide="prev">
@@ -1205,6 +1206,35 @@
 
   </div>
   <div style="height: 20px;"></div>
+
+  <script>
+  document.querySelectorAll('.img-fluid').forEach(video => {
+    let userInteracting = false;
+    video.controls = false;
+
+    video.addEventListener('mouseenter', () => {
+      userInteracting = true;
+      video.controls = true;
+    });
+
+    video.addEventListener('mouseleave', () => {
+      userInteracting = false;
+      video.controls = false;
+    });
+
+    video.addEventListener('ended', () => {
+      if (userInteracting) return;
+
+      setTimeout(() => {
+        video.currentTime = 0;
+
+        setTimeout(() => {
+          video.play();
+        }, 1000);
+      }, 1000);
+    });
+  });
+  </script>
 
 </body>
 

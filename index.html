@@ -42,9 +42,10 @@
           <!-- <img class="center" src="./mfiles/teaser_resize.gif" style="width:100%; height:auto; overflow:visible;"></img> -->
            <iframe
             class="center"
-            src="./mfiles/teaser/index.html"
+            data-src="./mfiles/teaser/index.html" src=""
             style="width:100%; max-width:1400px; aspect-ratio: 1400 / 600; max-height:100vh; border:none; display:block; margin:0 auto; overflow:visible; background:transparent;">
           </iframe>
+          <div style="position: absolute; inset: 0;"></div>
           <p style="text-align: center; margin-top: 10px;"><i>ID-WM</i></p>
         </div>
       </div>
@@ -62,7 +63,13 @@
       <!--Architecture Image-->
       <div class="row mt-5">
         <div class="col-12 center img">
-          <img class="center" src="./mfiles/planning_resize.gif" style="width:100%; height:auto; overflow:visible;"></img>
+          <!-- <img class="center" src="./mfiles/planning_resize.gif" style="width:100%; height:auto; overflow:visible;"></img> -->
+           <iframe
+            class="center"
+            data-src="./mfiles/method/index.html" src=""
+            style="width:100%; max-width:1400px; aspect-ratio: 1400 / 600; max-height:100vh; border:none; display:block; margin:0 auto; overflow:visible; background:transparent;">
+          </iframe>
+          <div style="position: absolute; inset: 0;"></div>
           <p style="text-align: center; margin-top: 10px;"><i>Architecture of ID-WM</i></p>
         </div>
       </div>
@@ -1240,6 +1247,16 @@
     });
   });
   </script>
+
+  <script>
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        e.target.src = e.isIntersecting ? e.target.dataset.src : '';
+      });
+    }, {threshold: 0.2});
+
+    document.querySelectorAll('iframe[data-src]').forEach(el => obs.observe(el));
+</script>
 
 </body>
 
